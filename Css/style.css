@@ -86,7 +86,7 @@ footer {
       "content2"
       "content3"
       "footer";
-    margin: 0.2rem 0.2rem;
+    margin: 0.2rem 1rem;
     gap: 0.4em;
   }
   #content1,
@@ -97,5 +97,11 @@ footer {
   }
   main {
     margin: 1em 1em;
+  }
+}
+@media (max-width: 300px) {
+  #header {
+    display: flex;
+    flex-direction: column;
   }
 }
